@@ -578,7 +578,8 @@
   .services {
     display: grid;
     gap: var(--space-8);
-  }
+    justify-content: center; /* Align items to the center horizontally */
+}
   
   .service-card {
     background: white;
